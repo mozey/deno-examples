@@ -1,0 +1,12 @@
+{
+	// Using Visual Studio Code
+	// https://deno.com/manual@v1.34.2/references/vscode_deno#using-visual-studio-code
+	// Extension on VSCode marketplace
+	// https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno
+	"deno.enable": true,
+	"deno.lint": true,
+	"editor.formatOnSave": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "denoland.vscode-deno"
+	}
+}
