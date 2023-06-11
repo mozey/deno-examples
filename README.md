@@ -14,6 +14,16 @@ deno run --allow-net modules.ts
 
 Create a [deps.ts file](https://deno.com/manual@v1.34.2/basics/modules#it-seems-unwieldy-to-import-urls-everywhere): *"And throughout the same project, you can import from the deps.ts and avoid having many references to the same URL"*
 
+[Reload all deps](https://deno.com/manual@v1.34.2/basics/modules/reloading_modules#to-reload-everything)
+```bash
+deno cache --reload deps.ts
+```
+
+[Reload a specific module](https://deno.com/manual@v1.34.2/basics/modules/reloading_modules#to-reload-specific-modules)
+```bash
+deno cache --reload=https://deno.land/std@0.191.0/testing/asserts.ts app_test.ts
+```
+
 
 ## Testing
 
