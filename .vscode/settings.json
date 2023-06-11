@@ -5,7 +5,7 @@
 	// https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno
 	"deno.enable": true,
 	"deno.lint": true,
-	"editor.formatOnSave": true,
+	// "editor.formatOnSave": true,
 	"[typescript]": {
 		"editor.defaultFormatter": "denoland.vscode-deno"
 	}
