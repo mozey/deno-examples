@@ -33,6 +33,12 @@ deno test --failfast
 ```
 
 
+## Debugging 
+
+**TODO**
+[Debugging Your Code](https://deno.com/manual@v1.34.2/basics/debugging_your_code#debugging-your-code): *"Deno supports the V8 Inspector Protocol used by Chrome, Edge and Node.js. This makes it possible to debug Deno programs using Chrome DevTools or other clients that support the protocol (for example VSCode)"*
+
+
 ## Vendoring
 
 **TODO**
