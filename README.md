@@ -27,10 +27,7 @@ deno cache --reload=https://deno.land/std@0.191.0/testing/asserts.ts app_test.ts
 
 ## Testing
 
-**TODO** Add some tests
-
-[Testing basics](https://deno.com/manual@v1.34.2/basics/testing)
-
+[Testing basics](https://deno.com/manual@v1.34.2/basics/testing): *"Deno has a built-in test runner that you can use for testing JavaScript or TypeScript code"*
 ```bash
 deno test --failfast
 ```
