@@ -71,3 +71,11 @@ deno --version
 deno run npm.ts
 ```
 
+
+# tsconfig.json
+
+[Configuring TypeScript in Deno](https://deno.com/manual@v1.31.3/advanced/typescript/configuration#configuring-typescript-in-deno): *"TypeScript comes with a lot of different options that can be configured, but Deno strives to make it easy to use TypeScript with Deno. Lots of different options frustrates that goal"*
+```bash
+rm tsconfig.json # if it exists
+touch deno.js
+```
