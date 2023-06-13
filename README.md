@@ -1,5 +1,20 @@
 # mozey/deno-examples
 
+[Install deno](https://formulae.brew.sh/formula/deno)
+```bash
+brew install deno
+```
+
+Clone this repo
+```bash
+export PRO_PATH="/path/to/your/projects/dir"
+cd $PRO_PATH
+git clone https://github.com/mozey/deno-examples.git
+cd deno-examples
+```
+
+Then try the commands below...
+
 
 ## Modules
 
