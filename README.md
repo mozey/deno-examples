@@ -46,3 +46,13 @@ deno test --failfast
 ```bash
 deno vendor
 ```
+
+
+## Importing npm packages
+
+[npm: specifiers](https://deno.com/manual@v1.34.2/node/npm_specifiers): *"Since version 1.28, Deno has native support for importing npm packages"*
+```bash
+deno --version
+deno run npm.ts
+```
+
